@@ -9,9 +9,6 @@ from lib.stackedDAE import StackedDAE
 from lib.datasets import MNIST
 
 
-foo = bar
-bar = foo
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='VAE MNIST Example')
     parser.add_argument('--lr', type=float, default=0.1, metavar='N',
